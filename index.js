@@ -30,7 +30,7 @@ void async function main(){
 
     if (!await pathExists(path.join(process.cwd(), 'node_modules'))) {
         console.log('Dependencies are not installed!')
-        
+
         const confirmPrompt = new Select({
             message: 'Do you want to install dependencies using npm?',
             choices: [
