@@ -151,9 +151,6 @@ void async function main(){
         .filter(d => typeof d !== 'boolean')
         .filter((d) => d.installedPath !== d.realPath)
 
-
-console.log(problematicDependencies);
-
     if (problematicDependencies.length > 0) {
         console.log(`You have ${problematicDependencies.length} ${problematicDependencies.length > 1 ? 'dependencies' : 'dependency'} with incorrect path!`)
         for (const d of problematicDependencies) {
