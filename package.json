@@ -2,13 +2,18 @@
   "name": "resolve-symlinks",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "bin": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "scripts": {
     "pb": "np"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "ejnshtein",
+  "repository": "github:ejnshtein/resolve-symlinks",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2",
     "enquirer": "^2.3.6"
