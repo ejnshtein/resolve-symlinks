@@ -156,7 +156,7 @@ void async function main(){
         for (const d of problematicDependencies) {
             console.log(d.name);
             console.log(`your path: ${chalk.yellow(d.installedPath)}
-while, real path: ${chalk.green(d.realPath)}}`);
+while, real path: ${chalk.green(d.realPath)}`);
         }
 
         const confirmPrompt = new Select({
