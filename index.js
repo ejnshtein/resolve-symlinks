@@ -47,7 +47,7 @@ void async function main(){
 
         let result
         try {
-        result = await confirmPrompt.run()
+            result = await confirmPrompt.run()
         } catch (e) {
             console.log('You could\'ve selected second option...')
             return
@@ -193,7 +193,9 @@ while, real path: ${chalk.green(d.realPath)}`);
                 await fs.promises.symlink(d.globalPath, d.dependencyPath)
             }))
 
-            console.log('done!');
+            console.log('All done!');
+        } else {
+            console.log('OK! Good luck!')
         }
     } else {
         console.log('no issues found! you are good to go!')
