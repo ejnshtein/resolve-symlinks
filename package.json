@@ -1,7 +1,7 @@
 {
   "name": "resolve-symlinks",
   "version": "0.0.4",
-  "description": "",
+  "description": "Resolve issues with locally installed packages",
   "bin": "index.js",
   "files": [
     "lib",
@@ -10,7 +10,12 @@
   "scripts": {
     "pb": "np"
   },
-  "keywords": [],
+  "keywords": [
+    "symlink",
+    "symlinks",
+    "bin",
+    "cli"
+  ],
   "author": "ejnshtein",
   "repository": "github:ejnshtein/resolve-symlinks",
   "license": "MIT",
