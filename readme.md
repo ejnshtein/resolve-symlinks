@@ -31,10 +31,10 @@ The whole source code is about 200 lines of code, when it runs it does the follo
 8. Filters dependencies to process only those which are installed from incorrect path. Aka, the whole idea of this package.
 9. If there are any, logs them in the console and prompts to fix them.  
 If you want to fix them, this package will do the following:  
-\1. Unlink package from **./config/yarn/link/\<package-name>**.  
-\2. Unlink package from **node_modules**.  
-\3. Link package into **./config/yarn/link/\<package-name>**  
-\4. Link global package into **node_modules/\<package-name>**  
+1. Unlink package from **./config/yarn/link/\<package-name>**.  
+2. Unlink package from **node_modules**.  
+3. Link package into **./config/yarn/link/\<package-name>**  
+4. Link global package into **node_modules/\<package-name>**  
 If not, will end the process.
 
 That is it.
